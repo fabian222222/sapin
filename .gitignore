@@ -1,0 +1,12 @@
+### Flask ###
+.webassets-cache
+__pycache__
+
+# Environments
+.venv
+.env
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

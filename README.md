@@ -6,4 +6,4 @@
 3. Activate it with : ``` source .venv/bin/activate ```
 4. Install Flask with : ``` pip install flask ```
 5. Launch the project : ``` python -m flask run ```
-6. Finally go on your browser and search the url given during the flask run and add ```/sapin/{the number you want between 0 and 30} and have fun with your tree
+6. Finally go on your browser and search the url given during the flask run and add ```/sapin/{the number you want between 0 and 30}``` and have fun with your tree

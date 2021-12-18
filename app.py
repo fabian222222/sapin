@@ -26,7 +26,7 @@ def tree(size):
         tree_result.append(tree_temporary)
         if tree_size%2 == 0:
             line_size = len(tree_temporary[int(tree_size/2)])
-        else :
-            line_size = len(tree_temporary[round(tree_size + 1 / 2) // 2])
+        else :  
+            line_size = len(tree_temporary[round((tree_size + 1) / 2)])
         tree_size += 1
     return render_template('index.html', results=tree_result, trunks=trunk_result, trunk_width=size)
